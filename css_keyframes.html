@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes animate--div{
+            0%{
+                background-color: rgb(150, 28, 89);
+                transform: translateX(100px);
+            }
+            50%{
+                background-color: rgb(139, 16, 177);
+                transform: translateX(500px);
+            }
+            100%{
+                background-color: rgb(209, 19, 108);
+                transform: translateX(1000px);
+            }  
+        } 
+        div{
+            width: 500px;
+            height: 500px;
+            background-color: rgb(0,119,255);
+            border-radius: 50%;
+            animation-name: animate--div;
+            animation-duration: 5s;
+            animation-delay: 0.3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }      
+        @keyframes bounce{
+            0% {
+                top: 0px; bottom: 0px;
+                transform: translatex(100px);
+            } 
+            25% {
+                top: 200px; bottom: 0px;
+                transform: translatex(250px);
+            }
+             50%{
+                top: 200px; bottom: 200px;
+                transform: translatex(500px);
+            }             
+              75%{
+                top: 0px; bottom: 200px;
+                 transform: translatex(750px);
+            }
+               100% {
+                top: 0px; bottom: 0px;
+                transform: translatex(1000px);
+            }
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            background-color: blueviolet;
+            animation-name: bounce;
+            animation-duration: 0.9s;
+        }
+        </style>
+    </head>
+<body>
+    <div>
+    </div>   
+</body>
+</html>
