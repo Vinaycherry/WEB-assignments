@@ -1,0 +1,13 @@
+<html>
+<head>
+</head>
+<body>
+<!--Hi learn animation-->
+<p>&euro;</p>
+<p>&forall;</p>
+<p>&ni;</p>
+<p>&sum;</p>
+<p>&alpha;</p>
+</body>
+</html>
+
