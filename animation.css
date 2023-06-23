@@ -1,0 +1,34 @@
+html {
+	height: 100%;
+	max-height: 600px;
+	width: 1000px;
+	background-color: hsla(106, 66%, 64%, 0.4);
+	background-image:		
+	url('https://clipground.com/images/blank-transparent-png-3.png'),
+	url('https://th.bing.com/th/id/R.198daeda14097d45e417e62ff283f10e?rik=kP+TBJh7sTYbsQ&riu=http://pngimg.com/uploads/cloud/cloud_PNG16.png&ehk=X5AyXlc5FaClpnqzWS7CfPmiglPfquWg6QktZhQz6i4=&risl=&pid=ImgRaw&r=0'),
+	url('https://th.bing.com/th/id/OIP.lyuvML4KHnqyId0gNEr8CwHaDD?pid=ImgDet&rs=1');
+
+		background-position: 
+		0 20%,
+		0 25%,
+		0 50%,
+		0 100%,
+		0 0%;
+		background-size: 
+	    2500px,
+		1000px,
+		4000px 600px,
+		1000px,
+		4000px 2600px;
+		animation: 50s para infinite linear;
+}
+@keyframes para {
+	100%{
+		background-position: 
+		-5000px 20%,
+		-600px 55%,
+		500px 50%,
+		1000px 100%,
+		400px 0;
+	}
+}
