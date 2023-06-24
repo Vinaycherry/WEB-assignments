@@ -1,0 +1,19 @@
+.ad{
+    width: 290px;
+    height: 160px;
+}
+#p1{
+    margin-left: 80px;
+    padding-top: 10px;
+    size: 80px;
+}
+#p2{
+    padding-top: 10px;
+    margin-left: 80px;
+    size: 80px;
+}
+.d{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    text-shadow: 0cqmax;
+}
