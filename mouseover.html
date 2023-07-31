@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        div{
+            width:300px;
+            height: 200px;
+            background-color: aqua;
+        }
+    </style>
 </head>
-<body>{
-    width:300px;
-    height:200px;
-    background-color: blue;
-    }
-    <div id = "mydiv">
+<body>
+    <div id="mydiv">
     </div>
     <script>
-        const d = document.getElemntById("mydiv");
+        const md =document.getElementById("mydiv");
         function mouseoverdone()
         {
-            md.style.backgroundcolor = "pink";
+            md.style.backgroundColor = "red";
         }
-        md.addEventListener("mousehover",mouseoverdone);
+        function mouseoutdone()
+        {
+            md.style.backgroundColor = "green";
+        }
+        md.addEventListener("mouseover",mouseoverdone);
+        md.addEventListener("mouseout",mouseoutdone);
     </script>
 </body>
 </html>

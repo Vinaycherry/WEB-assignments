@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="dynamicDiv" style="width: 200px; height: 100px";
+    + background-color: lightblue;>
+</div>
+    Dynamic Div
+</div>
+<button onclick="changeStyle()">Change Style</button>
+
+<script>
+    function changeStyle() {
+        const dynamicDiv = document.getElementById('dynamicDiv');
+        dynamicDiv.style.backgroundColor = 'lightgreen';
+        dynamicDiv.style.width = '300px';
+        dynamicDiv.style.height = '150px';
+    }
+</script>
+</body>
+</html>

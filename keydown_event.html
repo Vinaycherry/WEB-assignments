@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="myinput">
+    <script>
+       const input = document.getElementById("myinput");
+       function handleit(event)
+       {
+        alert(event.keyCode)
+       }
+       input.addEventListener('keydown', handleit)
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="nameinput" placeholder="Enter your name">
+    <button onclick="displayGreeting()">say Hello</button>
+    <div id="greeting"></div>
+    <script>
+        function displayGreeting() {
+            const nameinput = document.getElementById('nameinput');
+            const greetingdiv = document.getElementById('greeting');
+            const name = nameinput.value;
+            greetingdiv.textcontent = 'hello,' + name + '!';
+        }
+    </script>
+</body>
+</html>
